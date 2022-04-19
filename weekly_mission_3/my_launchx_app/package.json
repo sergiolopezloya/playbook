@@ -1,0 +1,15 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "author": "Sergio Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
