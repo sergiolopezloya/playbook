@@ -1,6 +1,6 @@
 const User = require('./../../app/models/user')
 
-describe("Unit Tests for User class", () => {
+describe('Unit Tests for User class', () => {
     test('Create an User object', () => {
         // Aquí invocas el código que vas a usar en tu app 
         const user = new User(1, "carlogilmar", "Carlo", "Bio")
@@ -16,9 +16,17 @@ describe("Unit Tests for User class", () => {
 
     test('Add getters', () => {
         const user = new User(1, "carlogilmar", "Carlo", "Bio")
-        expect(user.getUsername).toBe("carlogilmar")
+        expect(user.getUserName).toBe("carlogilmar")
         expect(user.getBio).toBe("Bio")
         expect(user.getDateCreated).not.toBeUndefined()
         expect(user.getLastUpdated).not.toBeUndefined()
     });
+
+    test('Add setters', () => {
+        const user = new User(1, "carlogilmar", "Carlo", "Bio")
+        user.setUserName = "Gilmar"
+        user.setBio = "Bio"
+        expect(user.username).toBe("Gilmar")
+        expect(user.bio).toBe("Bio")
+    })
 })
