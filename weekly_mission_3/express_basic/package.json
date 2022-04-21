@@ -1,0 +1,15 @@
+{
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
