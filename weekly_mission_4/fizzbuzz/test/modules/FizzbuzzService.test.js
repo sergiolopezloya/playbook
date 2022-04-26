@@ -1,12 +1,12 @@
 
-describe('FizzbuzzService', () => {
-    test('should return a list of fizzbuzz in node', () => {
-        const explorers = [
+describe("FizzbuzzService", () => {
+    test("should return a list of fizzbuzz in node", () => {
+        /*const explorers = [
             {
-                mission: 'node'
+                mission: "node"
             }
-        ]
+        ];*/
         //const ExplorersWithNode = FizzbuzzService.filterByMission(explorers, 'node')
-        expect(1).toBe(1)
-    })
-})
+        expect(1).toBe(1);
+    });
+});
