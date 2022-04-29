@@ -9,3 +9,7 @@ Este es el link al repositorio del code challenge:
 La actividad 4 de esta semana está en este mismo repo pero también se encuentra por separado aquí:
 
 [https://github.com/sergiolopezloya/LaunchX-Fizzbuzz](https://github.com/sergiolopezloya/LaunchX-Fizzbuzz)
+
+Práctica de Trello:
+
+[https://github.com/sergiolopezloya/Trello-JS-Tests](https://github.com/sergiolopezloya/Trello-JS-Tests)
